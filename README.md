@@ -20,6 +20,7 @@ Upload a CSV, pick a target column, and DataSanity will generate:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
 Project structure
 -----------------
 
