@@ -3,6 +3,13 @@ import pandas as pd
 from datasanity import check_dataset
 
 st.set_page_config(page_title="DataSanity", layout="wide")
+
+with st.sidebar:
+    st.title("DataSanity 🧠")
+    st.caption("Dataset health + ML strategy assistant for tabular ML.")
+    st.markdown("**How to use**")
+    st.markdown("- Upload a CSV\n- Select the target column\n- Run checks\n- Download the HTML report")
+
 from pathlib import Path
 
 def load_css(path: str):
