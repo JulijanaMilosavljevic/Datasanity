@@ -1,10 +1,18 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+*.egg-info/
+
+# Virtual env
 .env
 .venv
 venv/
-.env/
+
+# Generated outputs
+datasanity_report.html
+*.log
+
+# OS
 .DS_Store
-report_output.html
